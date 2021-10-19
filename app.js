@@ -4,6 +4,8 @@ const path = require('path');
 const passport = require('passport');
 require('dotenv').config();
 
+#app data
+
 var app = express();
 //require code
 require('./config/database');
